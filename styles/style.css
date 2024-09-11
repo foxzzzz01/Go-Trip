@@ -1,0 +1,399 @@
+@import url(./fonts.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    min-width: 320px;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header{
+    background: #3E8989;
+    padding: 38px 0;
+    font-family: "Rubik";
+}
+
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__nav-logo {
+    color: #fff;
+    margin: 0 0 0 165px;
+}
+
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+.header__nav-list_item a {
+    font-size: 16px;
+    font-weight: 500;  
+    color: #fff;
+    position: relative;
+}
+
+
+.header__nav-list_item a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -8px;
+}
+
+.header__nav-list_item a:hover::after{
+    width: 100%;
+}
+
+
+
+.form{
+    padding: 0 15px;
+    display: flex;
+    max-width: 290px;
+    width: 100%;
+    height: 35px;
+}
+
+
+.search{
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    border: 2px solid white;
+    border-radius: 20px 0 0 20px;
+    padding: 8px 0 8px 20px;
+    max-width: 216px;
+    width: 100%;
+}
+
+
+
+.submit{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background: #295E5E;
+    border: 2px solid #295E5E;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 12px;
+    max-width: 74px;
+    width: 100%;
+}
+
+
+.banner{
+    height: 800px;
+    background: url(../img/header_banner.png) no-repeat center center / cover;
+}
+
+
+.banner__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.banner__title-h1{
+    font-family: Rubik;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 94.8px;
+    text-align: left;
+}
+
+
+.banner__title-h2{
+    font-family: "Rubik";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: left;
+}
+
+
+.banner__more{
+    background: #B4436C;
+    padding: 14px 78px;
+    margin: 50px 0;
+    color: #fff;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s linear;
+}
+
+
+.banner__more:hover{
+    background: #fff;
+    color: #b4436c;
+}
+
+
+
+.about{
+    padding: 80px 0 98px;
+}
+
+
+.about__title{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #3E8989;
+    margin-bottom: 50px;
+}
+
+
+.about__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.about__img{
+    max-width: 545px;
+    width: 100%;
+}
+
+
+.about__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.about__desc{
+    max-width: 545px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.about__desc-bio{
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.catalog__title{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #3E8989;
+    margin-bottom: 54px ;
+}
+
+
+
+
+.catalog__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.catalog__wrap-cards{
+    max-width: 264px;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #000;
+}
+
+.card__img1{
+    width: 100%;
+    background: #EFEFEF;
+    padding: 0 32px;
+    margin-bottom: 30px;
+}
+
+
+.card__img2{
+    width: 100%;
+    background: #EFEFEF;
+    padding: 78px 22px;
+    margin-bottom: 30px;
+}
+
+
+.card__img3{
+    width: 100%;
+    background: #EFEFEF;
+    padding: 76px 2px;
+    margin-bottom: 30px;
+}
+
+
+.card__img4{
+    width: 100%;
+    background: #EFEFEF;
+    padding: 19px 0;
+    margin-bottom: 30px;
+}
+
+.card__img img{
+    width: 100%;
+}
+
+
+.assortment__clothes-items {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.catalog__wrap a{
+    color: #000;
+}
+
+.catalog__wrap :hover a{
+    color: #b4436c;
+}
+
+.contacts{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.contacts__title{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    color: #3E8989;
+    padding: 0 0 50px 0;
+}
+
+
+.contacts__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+
+.contacts__info_p{
+    font-family: "Rubik";
+    font-size: 23px;
+    font-weight: 400;
+    max-width: 555px;
+    width: 100%;
+}
+
+
+.contacts_tell-gmail{
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    gap: 20px;
+}
+
+
+
+.footer__container{
+    max-width: 1470px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.footer{
+    background: #3E8989;
+    padding: 40px 0 15px;
+    font-family: "Rubik";
+    margin-top: 104px;
+}
+
+
+.footer__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+
+.footer__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.footer__nav-list_item a {
+    font-size: 16px;
+    font-weight: 500;  
+    color: #fff;
+}
+
+
+.footer__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer__rigts_p{
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}

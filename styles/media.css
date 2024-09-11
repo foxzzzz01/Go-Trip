@@ -1,0 +1,120 @@
+@media screen and (max-width: 1045px) {
+    .catalog__wrap{
+        flex-wrap: wrap;
+    }
+    .catalog__wrap-cards{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .banner{
+        height: 500px;
+    }
+}
+
+
+
+@media screen and (max-width: 835px) {
+    .header__nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header__nav-logo{
+        margin: 0 50px;
+    }
+    .header__nav-list {
+        gap: 20px;
+    }
+    .about__wrap{
+        flex-direction: column;
+    }
+    .about{
+        padding: 60px 0 98px;
+    }
+    .contacts__info{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contacts__info_p{
+        font-size: 19px;
+        text-align: center;
+    }
+    .contacts__title{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .footer__nav-list{
+        gap: 20px;
+    }
+    .footer__nav{
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 570px) {
+    .about__desc-bio{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 525px) {
+    .banner__title-h1{
+        font-size: 60px;
+    }
+    .banner__title-h2{
+        font-size: 35px;
+    }
+    .banner__more{
+        margin: 30px 0;
+    }
+}
+
+
+@media screen and (max-width: 465px) {
+    .banner__title-h1{
+        font-size: 55px;
+    }
+    .banner__title-h2{
+        font-size: 30px;
+    }
+    .banner__more{
+        margin: 28px 0;
+        font-size: 16px;
+        padding: 10px 70px;
+    }
+}
+
+
+@media screen and (max-width: 405px) {
+    .banner__title-h1{
+        font-size: 50px;
+    }
+    .banner__title-h2{
+        font-size: 25px;
+    }
+    .banner__more{
+        margin: 23px 0;
+        font-size: 14px;
+        padding: 10px 65px;
+    }
+}
+
+
+@media screen and (max-width: 340px) {
+    .banner__title-h1{
+        font-size: 45px;
+    }
+    .banner__title-h2{
+        font-size: 20px;
+    }
+    .banner__more{
+        margin: 20px 0;
+        font-size: 12px;
+        padding: 10px 60px;
+    }
+}
